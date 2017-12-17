@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  myAntipode
-//
-//  Created by Ryan Wright on 12/17/17.
-//  Copyright © 2017 Ryan Wright. All rights reserved.
-//
-
 import UIKit
 import CoreLocation
 import MapKit
@@ -18,25 +10,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //TODO:Set up the location manager here.
-        
-        let initialLocation = CLLocation(latitude: 21.282778, longitude: -157.829444)
-        centerMapOnLocation(location: initialLocation)
+
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let location = locations[locations.count - 1]
         if location.horizontalAccuracy > 0 {
-            print("before lat: \(location.coordinate.latitude), long: \(location.coordinate.longitude)")
             
             var newLat : Double = 0.0
             var newLong : Double = 0.0
@@ -50,14 +33,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             if location.coordinate.longitude > 0 {
                 newLong = newLong * -1.0
             }
-            
-            print("after lat: \(newLat), long: \(newLong)")
+
             centerMapOnLocation(location: CLLocation(latitude: newLat, longitude: newLong))
         }
     }
     func centerMapOnLocation(location: CLLocation) {
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-                                                                  regionRadius, regionRadius)
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius, regionRadius)
         mapView.setRegion(coordinateRegion, animated: true)
     }
 
