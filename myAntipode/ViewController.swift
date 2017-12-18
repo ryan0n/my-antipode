@@ -5,12 +5,13 @@ import MapKit
 class ViewController: UIViewController, CLLocationManagerDelegate {
     let regionRadius: CLLocationDistance = 1000
     let locationManager = CLLocationManager()
+    var centerOnMyLocation : Bool = false
     
     @IBOutlet weak var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        mapView.mapType = MKMapType.hybrid
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
         locationManager.requestWhenInUseAuthorization()
@@ -21,19 +22,24 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let location = locations[locations.count - 1]
         if location.horizontalAccuracy > 0 {
             
+            locationManager.stopUpdatingLocation()
             var newLat : Double = 0.0
             var newLong : Double = 0.0
             
-            newLat = location.coordinate.latitude * -1.0
-            
-            newLong = location.coordinate.longitude
-            
-            newLong = 180.0 - abs(location.coordinate.longitude)
-            
-            if location.coordinate.longitude > 0 {
-                newLong = newLong * -1.0
+            if centerOnMyLocation {
+                newLat = location.coordinate.latitude
+                newLong = location.coordinate.longitude
+            } else {
+                newLat = location.coordinate.latitude * -1.0
+                
+                newLong = location.coordinate.longitude
+                
+                newLong = 180.0 - abs(location.coordinate.longitude)
+                
+                if location.coordinate.longitude > 0 {
+                    newLong = newLong * -1.0
+                }
             }
-
             centerMapOnLocation(location: CLLocation(latitude: newLat, longitude: newLong))
         }
     }
@@ -42,5 +48,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         mapView.setRegion(coordinateRegion, animated: true)
     }
 
+    @IBAction func myLocationButtonPressed(_ sender: Any) {
+        centerOnMyLocation = true
+        locationManager.startUpdatingLocation()
+    }
+    
+    @IBAction func myAntipodeButtonPressed(_ sender: Any) {
+        centerOnMyLocation = false
+        locationManager.startUpdatingLocation()
+    }
+    
 }
 
