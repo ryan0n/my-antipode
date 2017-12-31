@@ -2,7 +2,7 @@ import UIKit
 import CoreLocation
 import MapKit
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     var selectedSavedLocation : SavedLocation?
     

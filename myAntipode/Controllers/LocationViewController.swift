@@ -48,7 +48,7 @@ class LocationViewController: UITableViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destinationVC = segue.destination as! ViewController
+        let destinationVC = segue.destination as! MapViewController
         
         if let indexPath = tableView.indexPathForSelectedRow {
             destinationVC.selectedSavedLocation = savedLocations[indexPath.row]
