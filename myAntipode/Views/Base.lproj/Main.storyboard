@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="9bk-0Y-RDq">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="9bk-0Y-RDq">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9bk-0Y-RDq" id="RIR-dX-rRD">
@@ -33,7 +33,14 @@
                             <outlet property="delegate" destination="oov-89-Tev" id="3ks-x4-J6J"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="myB-LY-CE0"/>
+                    <navigationItem key="navigationItem" id="myB-LY-CE0">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="j8G-wE-sIB">
+                            <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="oov-89-Tev" id="KYY-kA-Qnn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="goToMap" id="Pjt-rI-dt9"/>
                     </connections>
@@ -86,7 +93,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1274.4000000000001" y="18.440779610194905"/>
+            <point key="canvasLocation" x="1122" y="18"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tjM-MA-Obw">
@@ -108,7 +115,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E3a-Jf-h7f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-492" y="18"/>
+            <point key="canvasLocation" x="-401" y="18"/>
         </scene>
     </scenes>
 </document>

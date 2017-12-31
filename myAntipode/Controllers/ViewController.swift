@@ -3,6 +3,9 @@ import CoreLocation
 import MapKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
+    
+    var selectedSavedLocation : SavedLocation?
+    
     let regionRadius: CLLocationDistance = 1000
     let locationManager = CLLocationManager()
     var centerOnMyLocation : Bool = false
