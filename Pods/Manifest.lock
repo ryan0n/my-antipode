@@ -1,0 +1,12 @@
+PODS:
+  - CityPicker (0.0.2)
+
+DEPENDENCIES:
+  - CityPicker
+
+SPEC CHECKSUMS:
+  CityPicker: 522b97fe6b1a5a3d52a1dece4c90ce211db02312
+
+PODFILE CHECKSUM: 5b0ea1cd84e25091e95eac0c05b9092d2b18d9a0
+
+COCOAPODS: 1.3.1

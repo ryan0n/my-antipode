@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117A0086578266EFB7000361A6163398 /* CityPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D984F59136F7CF60B1B11BD0EDA1D9 /* CityPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		375716AEE8482C70F975EB8511840C68 /* CityPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA003973D3884DD4470DACF8CC0D93B8 /* CityPicker-dummy.m */; };
+		6E3DC7F73A4989D75A8B3B0CD48EACD1 /* countriesToCities.json in Resources */ = {isa = PBXBuildFile; fileRef = 2466D865BA3FB7FCD9A0AA30A77922E6 /* countriesToCities.json */; };
+		75427662DF0A360E3EC0E2B08EC238B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7A73D585F079A62A0E345AA87DAB330D /* Pods-myAntipode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7629F8D329BAADB367BA35C9D24F949 /* Pods-myAntipode-dummy.m */; };
+		82BA4A86A0866F0FFD4FB49DD9B4E4E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9807CB610E4D5610D29D2B819CBEAB79 /* Pods-myAntipode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6427398DB066E2E28513B3A02BA18993 /* Pods-myAntipode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E69796C1F43E930BA6C36EE77F1039 /* CityPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A0BB99D1A31BA2E8E037F11936AAE7 /* CityPickerViewController.swift */; };
+		AFEC95699F900C2D00C70B9A0C052D1A /* CityPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9DD51AFA45C73DBE5057B2C02C8AC2E8 /* CityPicker.bundle */; };
+		D4F489F1151C61F7EE4D3BDF7B7AEDFD /* CityPickerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DD9990700B7E0BCDEE06C4AD9780A1 /* CityPickerClass.swift */; };
+		F531D35F1FF991410018FDE3 /* countriesToCities.json in Resources */ = {isa = PBXBuildFile; fileRef = 2466D865BA3FB7FCD9A0AA30A77922E6 /* countriesToCities.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9427768E259747F2ABA2AF112F42B3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7136F00F3A37F38497E9C7110FC5A05;
+			remoteInfo = CityPicker;
+		};
+		BBA9CE9A190583C1FC0465EA8910AF4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BBE50109C45F0A6072CBD85DE2788A;
+			remoteInfo = "CityPicker-CityPicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0057706F82F981BD82B03E6C3594BC26 /* Pods-myAntipode-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myAntipode-acknowledgements.markdown"; sourceTree = "<group>"; };
+		08DD9990700B7E0BCDEE06C4AD9780A1 /* CityPickerClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CityPickerClass.swift; path = Pod/Classes/CityPickerClass.swift; sourceTree = "<group>"; };
+		20027A672F30706F1A9F2F824F8319EE /* Pods-myAntipode-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myAntipode-frameworks.sh"; sourceTree = "<group>"; };
+		2466D865BA3FB7FCD9A0AA30A77922E6 /* countriesToCities.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = countriesToCities.json; path = Pod/Assets/countriesToCities.json; sourceTree = "<group>"; };
+		25560F5D5176F29EC5E1B41EAE01E234 /* Pods-myAntipode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-myAntipode.modulemap"; sourceTree = "<group>"; };
+		29E8303C524DF539081116E050F22FA0 /* Pods-myAntipode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myAntipode.debug.xcconfig"; sourceTree = "<group>"; };
+		39F970E905E35E190A2D4565D6AB137D /* CityPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CityPicker.modulemap; sourceTree = "<group>"; };
+		5AEEEC153F86CA4F318AAB676E89016F /* Pods-myAntipode-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myAntipode-acknowledgements.plist"; sourceTree = "<group>"; };
+		620055E580C2B86BCDBB81DC233B787F /* ResourceBundle-CityPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CityPicker-Info.plist"; sourceTree = "<group>"; };
+		6427398DB066E2E28513B3A02BA18993 /* Pods-myAntipode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myAntipode-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E9D17B520FF44460B46CA29F7D6F935 /* Pods-myAntipode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myAntipode.release.xcconfig"; sourceTree = "<group>"; };
+		70D984F59136F7CF60B1B11BD0EDA1D9 /* CityPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CityPicker-umbrella.h"; sourceTree = "<group>"; };
+		7AEAEF599BB6BAC09960337452064FB2 /* CityPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CityPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CBF654EE0494D62FCF7E9D1D963215A /* Pods_myAntipode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myAntipode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD51AFA45C73DBE5057B2C02C8AC2E8 /* CityPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CityPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A06BDA5A4906318B720952B3120522AA /* Pods-myAntipode-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myAntipode-resources.sh"; sourceTree = "<group>"; };
+		B5A0BB99D1A31BA2E8E037F11936AAE7 /* CityPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CityPickerViewController.swift; path = Pod/Classes/CityPickerViewController.swift; sourceTree = "<group>"; };
+		B7629F8D329BAADB367BA35C9D24F949 /* Pods-myAntipode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myAntipode-dummy.m"; sourceTree = "<group>"; };
+		C8687A23652CE1EEB6E9328B81955301 /* CityPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CityPicker.xcconfig; sourceTree = "<group>"; };
+		CB6176497E3A11314E6FBE7D608A0A61 /* CityPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CityPicker-prefix.pch"; sourceTree = "<group>"; };
+		DA003973D3884DD4470DACF8CC0D93B8 /* CityPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CityPicker-dummy.m"; sourceTree = "<group>"; };
+		DC7CE57CA4E4C30FAC9E43FE8A653D32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F554D9D85C268F1F72C52C97330D1B27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7514130A47B4C185B3BBA32A502ED259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75427662DF0A360E3EC0E2B08EC238B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		879B6B6E56243A6608F3CCB3D39F6BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E059E650994F15AB4FB98297B7A3BC62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BA4A86A0866F0FFD4FB49DD9B4E4E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A84C18F95AC3FD66228F24C21143EFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF648CC73621F5F110748BF7A987D78A /* CityPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F34DFEEDF38DEAFA252D5ABCFD568EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD51AFA45C73DBE5057B2C02C8AC2E8 /* CityPicker.bundle */,
+				7AEAEF599BB6BAC09960337452064FB2 /* CityPicker.framework */,
+				9CBF654EE0494D62FCF7E9D1D963215A /* Pods_myAntipode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A84C18F95AC3FD66228F24C21143EFE /* Pods */,
+				5F34DFEEDF38DEAFA252D5ABCFD568EA /* Products */,
+				D3EFA79C840961C14FC7637202FDF5A1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8CED1619B2FBF8DFBE22890D43D2442B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2466D865BA3FB7FCD9A0AA30A77922E6 /* countriesToCities.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD17718959AA2E1205D0E4BC49C31A1D /* Pods-myAntipode */ = {
+			isa = PBXGroup;
+			children = (
+				DC7CE57CA4E4C30FAC9E43FE8A653D32 /* Info.plist */,
+				25560F5D5176F29EC5E1B41EAE01E234 /* Pods-myAntipode.modulemap */,
+				0057706F82F981BD82B03E6C3594BC26 /* Pods-myAntipode-acknowledgements.markdown */,
+				5AEEEC153F86CA4F318AAB676E89016F /* Pods-myAntipode-acknowledgements.plist */,
+				B7629F8D329BAADB367BA35C9D24F949 /* Pods-myAntipode-dummy.m */,
+				20027A672F30706F1A9F2F824F8319EE /* Pods-myAntipode-frameworks.sh */,
+				A06BDA5A4906318B720952B3120522AA /* Pods-myAntipode-resources.sh */,
+				6427398DB066E2E28513B3A02BA18993 /* Pods-myAntipode-umbrella.h */,
+				29E8303C524DF539081116E050F22FA0 /* Pods-myAntipode.debug.xcconfig */,
+				6E9D17B520FF44460B46CA29F7D6F935 /* Pods-myAntipode.release.xcconfig */,
+			);
+			name = "Pods-myAntipode";
+			path = "Target Support Files/Pods-myAntipode";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3EFA79C840961C14FC7637202FDF5A1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD17718959AA2E1205D0E4BC49C31A1D /* Pods-myAntipode */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF648CC73621F5F110748BF7A987D78A /* CityPicker */ = {
+			isa = PBXGroup;
+			children = (
+				08DD9990700B7E0BCDEE06C4AD9780A1 /* CityPickerClass.swift */,
+				B5A0BB99D1A31BA2E8E037F11936AAE7 /* CityPickerViewController.swift */,
+				8CED1619B2FBF8DFBE22890D43D2442B /* Resources */,
+				FADDD6C56CA5829FCF7548AC4232C469 /* Support Files */,
+			);
+			path = CityPicker;
+			sourceTree = "<group>";
+		};
+		FADDD6C56CA5829FCF7548AC4232C469 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F970E905E35E190A2D4565D6AB137D /* CityPicker.modulemap */,
+				C8687A23652CE1EEB6E9328B81955301 /* CityPicker.xcconfig */,
+				DA003973D3884DD4470DACF8CC0D93B8 /* CityPicker-dummy.m */,
+				CB6176497E3A11314E6FBE7D608A0A61 /* CityPicker-prefix.pch */,
+				70D984F59136F7CF60B1B11BD0EDA1D9 /* CityPicker-umbrella.h */,
+				F554D9D85C268F1F72C52C97330D1B27 /* Info.plist */,
+				620055E580C2B86BCDBB81DC233B787F /* ResourceBundle-CityPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CityPicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DAA067B102BD5353468BEBEAB75D45E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117A0086578266EFB7000361A6163398 /* CityPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6EE0502CBA2F0EBFE53ED48B0B35074 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9807CB610E4D5610D29D2B819CBEAB79 /* Pods-myAntipode-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59BBE50109C45F0A6072CBD85DE2788A /* CityPicker-CityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DF721EC15A6A24206C542EEFAED938 /* Build configuration list for PBXNativeTarget "CityPicker-CityPicker" */;
+			buildPhases = (
+				B020AB2F55ABB0BE5D411CB3E41CABC7 /* Sources */,
+				879B6B6E56243A6608F3CCB3D39F6BF2 /* Frameworks */,
+				AF2C3B37A4D1092BE2F6567A1BE6C492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CityPicker-CityPicker";
+			productName = "CityPicker-CityPicker";
+			productReference = 9DD51AFA45C73DBE5057B2C02C8AC2E8 /* CityPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C05309FD51FBEE87E6509BDF4AE079BE /* Pods-myAntipode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8743CAF1736F12D1DF2EAF570837DA86 /* Build configuration list for PBXNativeTarget "Pods-myAntipode" */;
+			buildPhases = (
+				1F4A61B2F8A2FEA5291207FDD69B5549 /* Sources */,
+				7514130A47B4C185B3BBA32A502ED259 /* Frameworks */,
+				B6EE0502CBA2F0EBFE53ED48B0B35074 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA93E6731BACD5FD2626F16E7682CB2B /* PBXTargetDependency */,
+			);
+			name = "Pods-myAntipode";
+			productName = "Pods-myAntipode";
+			productReference = 9CBF654EE0494D62FCF7E9D1D963215A /* Pods_myAntipode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7136F00F3A37F38497E9C7110FC5A05 /* CityPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BD8AFE595815ADB1590D749C21BE36 /* Build configuration list for PBXNativeTarget "CityPicker" */;
+			buildPhases = (
+				4265A92915E255F75B3F2E410C3622D9 /* Sources */,
+				E059E650994F15AB4FB98297B7A3BC62 /* Frameworks */,
+				36FEA0DA0E9BE9EFBA0CAB1EFB25FF4C /* Resources */,
+				3DAA067B102BD5353468BEBEAB75D45E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37367E8521CA1D404ED4D9AD9E93935 /* PBXTargetDependency */,
+			);
+			name = CityPicker;
+			productName = CityPicker;
+			productReference = 7AEAEF599BB6BAC09960337452064FB2 /* CityPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5F34DFEEDF38DEAFA252D5ABCFD568EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7136F00F3A37F38497E9C7110FC5A05 /* CityPicker */,
+				59BBE50109C45F0A6072CBD85DE2788A /* CityPicker-CityPicker */,
+				C05309FD51FBEE87E6509BDF4AE079BE /* Pods-myAntipode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36FEA0DA0E9BE9EFBA0CAB1EFB25FF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F531D35F1FF991410018FDE3 /* countriesToCities.json in Resources */,
+				AFEC95699F900C2D00C70B9A0C052D1A /* CityPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2C3B37A4D1092BE2F6567A1BE6C492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3DC7F73A4989D75A8B3B0CD48EACD1 /* countriesToCities.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4A61B2F8A2FEA5291207FDD69B5549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A73D585F079A62A0E345AA87DAB330D /* Pods-myAntipode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4265A92915E255F75B3F2E410C3622D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375716AEE8482C70F975EB8511840C68 /* CityPicker-dummy.m in Sources */,
+				D4F489F1151C61F7EE4D3BDF7B7AEDFD /* CityPickerClass.swift in Sources */,
+				A1E69796C1F43E930BA6C36EE77F1039 /* CityPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B020AB2F55ABB0BE5D411CB3E41CABC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A37367E8521CA1D404ED4D9AD9E93935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CityPicker-CityPicker";
+			target = 59BBE50109C45F0A6072CBD85DE2788A /* CityPicker-CityPicker */;
+			targetProxy = BBA9CE9A190583C1FC0465EA8910AF4E /* PBXContainerItemProxy */;
+		};
+		CA93E6731BACD5FD2626F16E7682CB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CityPicker;
+			target = E7136F00F3A37F38497E9C7110FC5A05 /* CityPicker */;
+			targetProxy = 9427768E259747F2ABA2AF112F42B3A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036845142E6FADF8A57654366484F3CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8687A23652CE1EEB6E9328B81955301 /* CityPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CityPicker/CityPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CityPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CityPicker/CityPicker.modulemap";
+				PRODUCT_NAME = CityPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2A80387D882A3F97E186E2D22A011156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8687A23652CE1EEB6E9328B81955301 /* CityPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CityPicker/CityPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CityPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CityPicker/CityPicker.modulemap";
+				PRODUCT_NAME = CityPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F11A04A875426C51A31FC32157F977D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9D17B520FF44460B46CA29F7D6F935 /* Pods-myAntipode.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myAntipode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myAntipode/Pods-myAntipode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myAntipode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5C37D6C52B958589F0450339EE0CC8F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8687A23652CE1EEB6E9328B81955301 /* CityPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CityPicker";
+				INFOPLIST_FILE = "Target Support Files/CityPicker/ResourceBundle-CityPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CityPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BC735CB21434D7752383C7D3FD5D76D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8687A23652CE1EEB6E9328B81955301 /* CityPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CityPicker";
+				INFOPLIST_FILE = "Target Support Files/CityPicker/ResourceBundle-CityPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = CityPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E1CC81E37A790EBB7911D8853DF51AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E8303C524DF539081116E050F22FA0 /* Pods-myAntipode.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-myAntipode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myAntipode/Pods-myAntipode.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myAntipode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BD8AFE595815ADB1590D749C21BE36 /* Build configuration list for PBXNativeTarget "CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036845142E6FADF8A57654366484F3CD /* Debug */,
+				2A80387D882A3F97E186E2D22A011156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DF721EC15A6A24206C542EEFAED938 /* Build configuration list for PBXNativeTarget "CityPicker-CityPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C37D6C52B958589F0450339EE0CC8F8 /* Debug */,
+				BC735CB21434D7752383C7D3FD5D76D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8743CAF1736F12D1DF2EAF570837DA86 /* Build configuration list for PBXNativeTarget "Pods-myAntipode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CC81E37A790EBB7911D8853DF51AC4 /* Debug */,
+				3F11A04A875426C51A31FC32157F977D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

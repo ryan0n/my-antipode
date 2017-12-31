@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85A72282D804A39C40D777CF /* Pods_myAntipode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B83658D62A9FA7A820A4DB0F /* Pods_myAntipode.framework */; };
+		F531D3611FF994590018FDE3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F531D3601FF994590018FDE3 /* Default-568h@2x.png */; };
 		F546ECEB1FE723C000108943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546ECEA1FE723C000108943 /* AppDelegate.swift */; };
 		F546ECED1FE723C000108943 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F546ECEC1FE723C000108943 /* MapViewController.swift */; };
 		F546ECF01FE723C000108943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F546ECEE1FE723C000108943 /* Main.storyboard */; };
 		F546ECF21FE723C000108943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F546ECF11FE723C000108943 /* Assets.xcassets */; };
 		F546ECF51FE723C000108943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F546ECF31FE723C000108943 /* LaunchScreen.storyboard */; };
-		F56ADADE1FF7363F001E87D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F56ADADD1FF7363F001E87D4 /* Default-568h@2x.png */; };
 		F5E3B6D51FF960B700AAA0C3 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3B6D41FF960B700AAA0C3 /* LocationViewController.swift */; };
 		F5E3B6DC1FF961E900AAA0C3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5E3B6DA1FF961E900AAA0C3 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64B9BB1A8FDA74A561252508 /* Pods-myAntipode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myAntipode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myAntipode/Pods-myAntipode.debug.xcconfig"; sourceTree = "<group>"; };
+		B83658D62A9FA7A820A4DB0F /* Pods_myAntipode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myAntipode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E886B5B46DB3F54637506CB6 /* Pods-myAntipode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myAntipode.release.xcconfig"; path = "Pods/Target Support Files/Pods-myAntipode/Pods-myAntipode.release.xcconfig"; sourceTree = "<group>"; };
+		F531D3601FF994590018FDE3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F546ECE71FE723C000108943 /* myAntipode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myAntipode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F546ECEA1FE723C000108943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F546ECEC1FE723C000108943 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +30,6 @@
 		F546ECF11FE723C000108943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F546ECF41FE723C000108943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F546ECF61FE723C000108943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F56ADADD1FF7363F001E87D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F5E3B6D41FF960B700AAA0C3 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		F5E3B6DB1FF961E900AAA0C3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -35,18 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A72282D804A39C40D777CF /* Pods_myAntipode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAB3843E056E8F616857C40C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B83658D62A9FA7A820A4DB0F /* Pods_myAntipode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA8D40D8DC5B7E1BA0D580E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64B9BB1A8FDA74A561252508 /* Pods-myAntipode.debug.xcconfig */,
+				E886B5B46DB3F54637506CB6 /* Pods-myAntipode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F546ECDE1FE723C000108943 = {
 			isa = PBXGroup;
 			children = (
-				F56ADADD1FF7363F001E87D4 /* Default-568h@2x.png */,
+				F531D3601FF994590018FDE3 /* Default-568h@2x.png */,
 				F546ECE91FE723C000108943 /* myAntipode */,
 				F546ECE81FE723C000108943 /* Products */,
+				EEA8D40D8DC5B7E1BA0D580E /* Pods */,
+				AAB3843E056E8F616857C40C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +85,6 @@
 		F546ECE91FE723C000108943 /* myAntipode */ = {
 			isa = PBXGroup;
 			children = (
-				F546ECF61FE723C000108943 /* Info.plist */,
 				F546ECEA1FE723C000108943 /* AppDelegate.swift */,
 				F595865F1FF7346000C6ADE5 /* Views */,
 				F595865E1FF7345500C6ADE5 /* Data Model */,
@@ -74,6 +97,8 @@
 		F56ADADA1FF734AB001E87D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F546ECF31FE723C000108943 /* LaunchScreen.storyboard */,
+				F546ECF61FE723C000108943 /* Info.plist */,
 				F546ECF11FE723C000108943 /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
@@ -100,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				F546ECEE1FE723C000108943 /* Main.storyboard */,
-				F546ECF31FE723C000108943 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F546ECF91FE723C000108943 /* Build configuration list for PBXNativeTarget "myAntipode" */;
 			buildPhases = (
+				BB656DA487F5120732EF6864 /* [CP] Check Pods Manifest.lock */,
 				F546ECE31FE723C000108943 /* Sources */,
 				F546ECE41FE723C000108943 /* Frameworks */,
 				F546ECE51FE723C000108943 /* Resources */,
+				30D4C07A1204391AFF52B377 /* [CP] Embed Pods Frameworks */,
+				084FF983A7863C9968788F99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,13 +192,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				F546ECF51FE723C000108943 /* LaunchScreen.storyboard in Resources */,
-				F56ADADE1FF7363F001E87D4 /* Default-568h@2x.png in Resources */,
+				F531D3611FF994590018FDE3 /* Default-568h@2x.png in Resources */,
 				F546ECF21FE723C000108943 /* Assets.xcassets in Resources */,
 				F546ECF01FE723C000108943 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		084FF983A7863C9968788F99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myAntipode/Pods-myAntipode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30D4C07A1204391AFF52B377 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-myAntipode/Pods-myAntipode-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CityPicker/CityPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CityPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myAntipode/Pods-myAntipode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB656DA487F5120732EF6864 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myAntipode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F546ECE31FE723C000108943 /* Sources */ = {
@@ -316,9 +397,11 @@
 		};
 		F546ECFA1FE723C000108943 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B9BB1A8FDA74A561252508 /* Pods-myAntipode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = myAntipode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanfwright.myAntipode;
@@ -330,9 +413,11 @@
 		};
 		F546ECFB1FE723C000108943 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E886B5B46DB3F54637506CB6 /* Pods-myAntipode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = myAntipode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryanfwright.myAntipode;
