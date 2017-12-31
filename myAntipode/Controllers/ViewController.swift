@@ -7,8 +7,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     let locationManager = CLLocationManager()
     var centerOnMyLocation : Bool = false
     
-    var locationHistoryItemArray = [LocationHistoryItem]()
-    
     let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("LocationHistoryItems.plist")
     
     @IBOutlet weak var mapView: MKMapView!
@@ -63,7 +61,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func loadItems() {
-        
+        /*
         if let data = try? Data(contentsOf: dataFilePath!) {
             let decoder = PropertyListDecoder()
             do {
@@ -73,9 +71,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             }
         }
         print(locationHistoryItemArray)
+ */
     }
     
     func saveItems() {
+        /*
         let encoder = PropertyListEncoder()
         do {
             let data = try encoder.encode(locationHistoryItemArray)
@@ -84,6 +84,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             print("Error encoding item array, \(error)")
         }
         // self.tableView.reloadData()
+ */
     }
 
     
