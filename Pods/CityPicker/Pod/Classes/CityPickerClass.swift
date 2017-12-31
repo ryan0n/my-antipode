@@ -25,7 +25,7 @@ class cityPickerClass {
             do {
                 let jsonData = try NSData(contentsOfFile: path, options: NSData.ReadingOptions.mappedIfSafe)
                 do {
-                    let jsonResult: NSDictionary = try JSONSerialization.JSONObjectWithData(jsonData, options: JSONSerialization.ReadingOptions.MutableContainers) as! NSDictionary
+                    let jsonResult: NSDictionary = try JSONSerialization.jsonObject(with: jsonData as Data, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
                     
                     let nationsArray = jsonResult.allKeys as! [String]
                     let sortedNations = nationsArray.sorted {  $0 < $1 }
