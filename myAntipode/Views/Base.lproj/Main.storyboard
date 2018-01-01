@@ -18,48 +18,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is an antipode?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Giy-e5-y5B">
-                                <rect key="frame" x="16" y="83" width="201" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0DY-h8-gYs">
-                                <rect key="frame" x="16" y="112" width="288" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">In Geography, the antipode of a place is the point found on the surface of the earth which is diametrically opposite to it. A pair of antipodes are two points that are opposite to one another on the surface of the earth and are connected by a straight line that runs through the Earth's center.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADQ-JP-hrE">
-                                <rect key="frame" x="75" y="289" width="171" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Click the myAntipode logo above to begin" image="myAntipodeIcon.png"/>
-                                <connections>
-                                    <action selector="didPressCurrentLocationButton:" destination="4nn-sX-bes" eventType="touchUpInside" id="GQK-0F-8oy"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="begin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RF-KV-NFb">
-                                <rect key="frame" x="120" y="327" width="80" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="highlightedColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vTf-bh-t7V" userLabel="Introduction Container">
+                                <rect key="frame" x="0.0" y="64" width="414" height="321"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is an antipode?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Giy-e5-y5B">
+                                        <rect key="frame" x="8" y="8" width="201" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0DY-h8-gYs">
+                                        <rect key="frame" x="8" y="37" width="288" height="104"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">In Geography, the antipode of a place is the point found on the surface of the earth which is diametrically opposite to it. A pair of antipodes are two points that are opposite to one another on the surface of the earth and are connected by a straight line that runs through the Earth's center.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Abd-eW-p1E" userLabel="Button Container">
+                                <rect key="frame" x="0.0" y="415" width="414" height="321"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADQ-JP-hrE">
+                                        <rect key="frame" x="112" y="75" width="171" height="171"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Click the myAntipode logo above to begin" image="myAntipodeIcon.png"/>
+                                        <connections>
+                                            <action selector="didPressCurrentLocationButton:" destination="4nn-sX-bes" eventType="touchUpInside" id="GQK-0F-8oy"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="begin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RF-KV-NFb">
+                                        <rect key="frame" x="158" y="145" width="80" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vTf-bh-t7V" firstAttribute="top" secondItem="WAO-iv-a2T" secondAttribute="top" id="2FH-TB-OIl"/>
+                            <constraint firstItem="Abd-eW-p1E" firstAttribute="height" secondItem="vTf-bh-t7V" secondAttribute="height" id="A9P-6Q-DhG"/>
+                            <constraint firstItem="vTf-bh-t7V" firstAttribute="trailing" secondItem="WAO-iv-a2T" secondAttribute="trailing" id="Ivv-75-jiE"/>
+                            <constraint firstItem="Abd-eW-p1E" firstAttribute="width" secondItem="vTf-bh-t7V" secondAttribute="width" id="MRz-eV-cxd"/>
+                            <constraint firstItem="Abd-eW-p1E" firstAttribute="trailing" secondItem="WAO-iv-a2T" secondAttribute="trailing" id="Vxk-h9-4Lo"/>
+                            <constraint firstItem="Abd-eW-p1E" firstAttribute="bottom" secondItem="WAO-iv-a2T" secondAttribute="bottom" id="WcS-k8-X1H"/>
+                            <constraint firstItem="Abd-eW-p1E" firstAttribute="top" secondItem="vTf-bh-t7V" secondAttribute="bottom" constant="30" id="gh3-fK-zAh"/>
+                            <constraint firstItem="Abd-eW-p1E" firstAttribute="top" secondItem="vTf-bh-t7V" secondAttribute="bottom" constant="30" id="gkN-Ps-LnA"/>
+                            <constraint firstItem="Abd-eW-p1E" firstAttribute="leading" secondItem="WAO-iv-a2T" secondAttribute="leading" id="sWj-eF-rik"/>
+                            <constraint firstItem="vTf-bh-t7V" firstAttribute="leading" secondItem="WAO-iv-a2T" secondAttribute="leading" id="zSx-D1-yvd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WAO-iv-a2T"/>
                     </view>
                     <navigationItem key="navigationItem" title="Welcome" id="dwE-rr-LsT"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToMapFromEntry" id="PlZ-5w-CAO"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToMapFromEntry" id="2V4-Lc-7y5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9I0-kS-qoL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="328.125" y="-657.5"/>
+            <point key="canvasLocation" x="434.78260869565219" y="-687.22826086956525"/>
         </scene>
         <!--Location View Controller-->
         <scene sceneID="XX0-mn-kD9">
@@ -95,7 +119,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HtV-hu-IcH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="350" y="18"/>
+            <point key="canvasLocation" x="304" y="655"/>
         </scene>
         <!--Antipode View-->
         <scene sceneID="tne-QT-ifu">
