@@ -39,7 +39,7 @@ public typealias DismissBlock = () -> Void
 public class CityPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     public func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 0
+        return 2
     }
     
 
@@ -162,6 +162,7 @@ public class CityPickerViewController: UIViewController, UIPickerViewDelegate, U
         super.viewWillAppear(animated)
         
         callCities(_nation: "Italy")
+        print("number of components \(cityPicker.numberOfComponents)")
         cityPicker.selectRow(108, inComponent: 0, animated: false)
         cityPicker.selectRow(3398, inComponent: 1, animated: false)
         
@@ -243,7 +244,9 @@ public class CityPickerViewController: UIViewController, UIPickerViewDelegate, U
     func callCities(_nation: String) {
         
         let citiesArray = cityPickerClass.getNations().allValues[_nation] as! [String]
+        print("citiesArray: \(citiesArray.count)")
         let sortedcities = citiesArray.sorted {  $0 < $1 }
+        print("sortedcities: \(sortedcities.count)")
         
         currentCities = sortedcities
         
@@ -294,7 +297,7 @@ public class CityPickerViewController: UIViewController, UIPickerViewDelegate, U
     
     
     public func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
+        print("here1")
         if component == 0 {
             
             callCities(_nation: nations[row])
