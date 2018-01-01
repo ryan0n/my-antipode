@@ -63,8 +63,8 @@ public class CityPickerViewController: UIViewController, UIPickerViewDelegate, U
     var currentCities = [String]()
     
     // Options
-    var startingNation = "Italy"
-    var startingCity = "Rome"
+    var startingNation = "United States"
+    var startingCity = "aberdeen"
     
     required public init?(coder aDecoder: NSCoder) {
         fatalError("NSCoding not supported")
@@ -161,7 +161,7 @@ public class CityPickerViewController: UIViewController, UIPickerViewDelegate, U
     override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        callCities(_nation: "Italy")
+        callCities(_nation: "United States")
         print("number of components \(cityPicker.numberOfComponents)")
         cityPicker.selectRow(108, inComponent: 0, animated: false)
         cityPicker.selectRow(3398, inComponent: 1, animated: false)
