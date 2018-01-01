@@ -21,7 +21,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         
         // Run this if the selectedSavedLocation set before the previous segue
         // is actually just the current location.
-        if 1 == 2 {
+        if selectedSavedLocation == nil {
             locationManager.delegate = self
             locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
             locationManager.requestWhenInUseAuthorization()
