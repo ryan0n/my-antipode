@@ -62,6 +62,11 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius, regionRadius)
         mapView.setRegion(coordinateRegion, animated: true)
+        let annotation = MKPointAnnotation()
+        let centerCoordinate = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude:location.coordinate.longitude)
+        annotation.coordinate = centerCoordinate
+        annotation.title = centerOnAntipode ? "My Antipode" : "My Location"
+        mapView.addAnnotation(annotation)
     }
     
     @IBAction func switchAntipodeModeButtonPressed(_ sender: UIBarButtonItem) {
