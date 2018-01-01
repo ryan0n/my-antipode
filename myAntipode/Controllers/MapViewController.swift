@@ -64,11 +64,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
-    @IBAction func switchAntipodeModeButtonPressed(_ sender: UIButton) {
+    @IBAction func switchAntipodeModeButtonPressed(_ sender: UIBarButtonItem) {
         centerOnAntipode = !centerOnAntipode
         recenter()
     }
-    
     
 }
 
