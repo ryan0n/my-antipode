@@ -6,7 +6,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     var selectedSavedLocation : SavedLocation?
 
-    let regionRadius: CLLocationDistance = 500000
+    let regionRadius: CLLocationDistance = 5000
     
     let locationManager = CLLocationManager()
     var centerOnAntipode : Bool = true
@@ -19,6 +19,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         scale.scaleVisibility = .visible
         view.addSubview(scale)
         
+        recenter()
+    }
+    
+    func recenter() {
         // Run this if the selectedSavedLocation set before the previous segue
         // is actually just the current location.
         if selectedSavedLocation == nil {
@@ -59,6 +63,12 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius, regionRadius)
         mapView.setRegion(coordinateRegion, animated: true)
     }
+    
+    @IBAction func switchAntipodeModeButtonPressed(_ sender: UIButton) {
+        centerOnAntipode = !centerOnAntipode
+        recenter()
+    }
+    
     
 }
 
